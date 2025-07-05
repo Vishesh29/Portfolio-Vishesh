@@ -29,6 +29,9 @@ const SocialIcons = styled.div`
 `;
 
 const Footer: React.FC = () => {
+  function getCurrentYear() {
+    return new Date().getFullYear();
+  }
   return (
     <FooterContainer>
       <SocialIcons>
@@ -48,7 +51,7 @@ const Footer: React.FC = () => {
           <FontAwesomeIcon icon={faCode} />
         </a>
       </SocialIcons>
-      <p>&copy; 2024 Vishesh Saxena. All rights reserved.</p>
+      <p>&copy; {getCurrentYear()} Vishesh Saxena. All rights reserved.</p>
     </FooterContainer>
   );
 };

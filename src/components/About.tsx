@@ -122,7 +122,7 @@ const About: React.FC = () => {
               <DetailTitle>CONTACT: </DetailTitle>
               <DetailContent>+91-7007690568</DetailContent>
             </ProfileDetail>
-            <DownloadButton href="./Vishesh_Saxena_SDE2.pdf" download>
+            <DownloadButton href="./Vishesh_Saxena_CV.pdf" download>
               Download CV <FontAwesomeIcon icon={faDownload} />
             </DownloadButton>
           </SkillsSection>

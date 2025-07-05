@@ -61,7 +61,7 @@ const RoleDetail = styled.div`
 `;
 
 const Hero = () => {
-  const professions = ["Machine Learning Enthusiast"];
+  const professions = ["Data Scientist"];
 
   return (
     <HeroSection id="hero">
@@ -71,8 +71,8 @@ const Hero = () => {
         <FirstTitle>HEY! I AM</FirstTitle>
         <Name>VISHESH SAXENA</Name>
         <RoleDetail>
-          <span className="txt-rotate" data-period="2000" data-rotate={JSON.stringify(professions)}>
-           I'm a <TextRotate dataPeriod={2000} dataRotate={professions} />
+          <span className="txt-rotate" data-period="1000" data-rotate={JSON.stringify(professions)}>
+           I'm a <TextRotate dataPeriod={1000} dataRotate={professions} />
           </span>
         </RoleDetail>
       </HeroContent>
