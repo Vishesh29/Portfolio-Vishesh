@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Vishesh/static/css/main.9b38b019.css",
-    "main.js": "/Portfolio-Vishesh/static/js/main.188ca3ed.js",
-    "static/js/317.a83cd74c.chunk.js": "/Portfolio-Vishesh/static/js/317.a83cd74c.chunk.js",
+    "main.js": "/Portfolio-Vishesh/static/js/main.f3d9209f.js",
+    "static/js/453.acca0757.chunk.js": "/Portfolio-Vishesh/static/js/453.acca0757.chunk.js",
     "static/media/vishesh2.png": "/Portfolio-Vishesh/static/media/vishesh2.9bed8460fb6b905d73e5.png",
     "static/media/object_detection.png": "/Portfolio-Vishesh/static/media/object_detection.7886e8d27a5ed1c06f0b.png",
     "static/media/FaceRecognise.jpg": "/Portfolio-Vishesh/static/media/FaceRecognise.55fad2a610fb130f6f0b.jpg",
@@ -10,11 +10,11 @@
     "static/media/infosys.png": "/Portfolio-Vishesh/static/media/infosys.39cd35191cc88792ca65.png",
     "index.html": "/Portfolio-Vishesh/index.html",
     "main.9b38b019.css.map": "/Portfolio-Vishesh/static/css/main.9b38b019.css.map",
-    "main.188ca3ed.js.map": "/Portfolio-Vishesh/static/js/main.188ca3ed.js.map",
-    "317.a83cd74c.chunk.js.map": "/Portfolio-Vishesh/static/js/317.a83cd74c.chunk.js.map"
+    "main.f3d9209f.js.map": "/Portfolio-Vishesh/static/js/main.f3d9209f.js.map",
+    "453.acca0757.chunk.js.map": "/Portfolio-Vishesh/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b38b019.css",
-    "static/js/main.188ca3ed.js"
+    "static/js/main.f3d9209f.js"
   ]
 }
