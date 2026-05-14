@@ -65,25 +65,38 @@ const Experience: React.FC = () => {
     const timeline = [
     {
       icon: workIcon,
-      date: 'June 2024 - Present',
-      title: 'Senior Software Engineer',
-      subtitle: 'Futops Technologies India Private Limited, Pune',
-      desc:  ['Mentored and led a team of 1-2 junior developers, providing guidance on best practices for code integration and performance optimization.',
-      'Developed a Smart Traffic System with YOLOv8 in PyTorch to enhance accuracy and reduce losses in real-time anomaly detection.',
-      'Conduct regular code reviews to maintain high code quality and adherence to best practices.',
-      'Engage with clients to understand their requirements and provide technical guidance and solutions to meet their needs'
+      date: 'Apr 2025 - Present',
+      title: 'Data Scientist',
+      subtitle: 'FIS Global',
+      desc:  ['Built GenAI automation framework to streamline SDLC and PDLC workflows using LLMs.',
+              'Developed context-aware LLM pipelines using LangChain, OpenAI APIs, and RAG architecture.',
+              'Applied prompt engineering for test generation, code review, and defect analysis.',
+              'Integrated vector databases and embedding models for accurate retrieval-augmented generation.',
+              'Reduced development time by 70% and improved QA efficiency by 80%+ through automation.'
       ],
     },
     {
       icon: workIcon,
-      date: 'Nov 2021 - May 2024',
-      title: 'Software Engineer',
+      date: 'Nov 2024 - Apr 2025',
+      title: 'Senior Data Engineer',
+      subtitle: 'LTIMindtree',
+      desc:  ['Developed agentic AI frameworks using LangChain for intelligent and context-aware applications.',
+              'Improved AI-driven response generation efficiency by 25% using agentic architectures.',
+              'Built agentic workflows using LLaMA and Mistral models for Natural Language-to-SQL generation.',
+              'Translated natural language prompts into executable SQL queries and logical workflows.',
+              'Achieved 60% accuracy in automated SQL query generation for data interaction systems.'
+      ],
+    },
+    {
+      icon: workIcon,
+      date: 'Nov 2021 - Nov 2024',
+      title: 'Senior Software Engineer',
       subtitle: 'Futops Technologies India Private Limited, Pune',
-      desc: ['Developed  Smart Traffic System with YOLOv7 in PyTorch, achieving 69% accuracy in real-time traffic anomaly detection.',
+      desc:  ['Developed a Smart Traffic System with <Yolov>4-8</Yolov> in PyTorch to enhance accuracy and reduce losses in real-time anomaly detection.',
       'Implemented multi-person pose estimation via OpenCV DNN and MySQL for real-time human movement tracking.',
       'Developed HTTP live streaming using Nginx for smooth media delivery, achieving 10-12 seconds latency.',
-      'Developed automated server monitoring with OpenCV for object detection and pattern recognition, achieving 80% accuracy in LED status detection.',
-      'Continuously improve the codebase by adopting best practices for code efficiency and performance.'
+      'Developed Automated server monitoring with OpenCV for object detection and pattern recognition, achieving 80% accuracy in LED status detection.',
+      'Engage with clients to understand their requirements and provide technical guidance and solutions to meet their needs.'
       ],
     },
     {

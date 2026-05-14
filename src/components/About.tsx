@@ -4,6 +4,8 @@ import { calculateExperience } from '../Utils';
 import MyPhotoUrl from '../Images/vishesh2.png';
 import Infosys from '../Images/infosys.png';
 import Futops from '../Images/futops.png';
+import Fis from '../Images/fis.png';
+import Mindtree from '../Images/mindtree.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
@@ -104,7 +106,7 @@ const About: React.FC = () => {
           <SkillsSection>
            <Heading>ABOUT ME</Heading>
             <ProfileText>
-            A Senior software engineer with {calculateExperience('2021-02-08')} years of expertise in building scalable applications and leveraging supervised and unsupervised machine learning and deep learning techniques for model training and optimization. Demonstrated track record in developing real-time computer vision solutions using frameworks like OpenCV, Keras, and Pytorch.
+            A Data Scientist (Generative AI) with {calculateExperience('2021-02-08')} years of experience building and deploying production-grade AI systems. Expertise in Large Language Models and scalable machine learning solutions across NLP and computer vision, with a strong focus on real-time systems and end-to-end deployment.
             </ProfileText>
             <ProfileDetail>
               <DetailTitle>FULLNAME: </DetailTitle>
@@ -112,7 +114,7 @@ const About: React.FC = () => {
             </ProfileDetail>
             <ProfileDetail>
               <DetailTitle>JOB: </DetailTitle>
-              <DetailContent>Senior Software Engineer, ML Enthusiast</DetailContent>
+              <DetailContent>Data Scientist (Generative AI)</DetailContent>
             </ProfileDetail>
             <ProfileDetail>
               <DetailTitle>EMAIL: </DetailTitle>
@@ -132,6 +134,8 @@ const About: React.FC = () => {
       <LogoSection>
         <Logo src={Infosys} alt="infosys" />
         <Logo src={Futops} alt="futops" />
+        <Logo src={Mindtree} alt="mindtree" />
+        <Logo src={Fis} alt="fis" />
       </LogoSection>
     </AboutSection>
   );
