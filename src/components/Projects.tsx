@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProjectCard from './ProjectCard';
+import ExpenseTracker from '../Images/ExpenseTracker.png';
+import PhisingDetector from '../Images/PhishingDetector.png';
 import BreastCancer from '../Images/BreastCancer.jpeg';
 import Sentiment from '../Images/Sentiment.jpeg';
 import FaceRecognise from '../Images/FaceRecognise.jpg';
@@ -15,6 +17,16 @@ export interface ProjectCardProps {
 }
 
 const projects: ProjectCardProps[] = [
+  {
+    title: 'RAG Based Expense Tracker',
+    link: 'https://github.com/Vishesh29/rag-based-expense-tracker',
+    imgUrl: ExpenseTracker,
+  },
+  {
+    title: 'Phishing Website Detection',
+    link: 'https://github.com/Vishesh29/Phishing-Detection',
+    imgUrl: PhisingDetector,
+  },
   {
     title: 'Breast Cancer Classification',
     link: 'https://github.com/Vishesh29/Breast-cancer-classification',

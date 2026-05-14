@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope,faCode } from '@fortawesome/free-solid-svg-icons';
 
 const FooterContainer = styled.footer`
@@ -38,8 +38,8 @@ const Footer: React.FC = () => {
         <a href="https://www.linkedin.com/in/visheshsaxena73/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://www.instagram.com/vishesh9711" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagram} />
+        <a href="https://medium.com/@vishesh73" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faMedium} />
         </a>
         <a href="mailto:visheshsaxena29@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} />

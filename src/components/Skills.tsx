@@ -49,14 +49,18 @@ const Skills: React.FC = () => {
   const skills = [
     { name: 'Python', level: 80 },
     { name: 'Machine Learning', level: 60 },
+    { name: 'Deep Learning', level: 60 },
+    { name: 'Large Language Models (LLMs)', level: 50 },
+    { name: 'Retrieval-Augmented Generation (RAG)', level: 50 },
+    { name: 'Prompt Engineering', level: 70 },
+    { name: 'LangChain', level: 50 },
+    { name: 'PyTorch', level: 60 },
     { name: 'Computer Vision', level: 70 },
-    { name: 'SQL', level: 80 },
+    { name: 'Databases & SQL', level: 80 },
     { name: 'Linux', level: 70 },
     { name: 'Docker', level: 70 },
     { name: 'Keras', level: 75 },
-    { name: 'Pytorch', level: 40 },
     { name: 'OpenCV', level: 60 }
-
   ];
 
   return (
