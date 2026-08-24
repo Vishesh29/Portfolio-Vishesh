@@ -106,7 +106,7 @@ const About: React.FC = () => {
           <SkillsSection>
            <Heading>ABOUT ME</Heading>
             <ProfileText>
-            A Data Scientist (Generative AI) with {calculateExperience('2021-02-08')} years of experience building and deploying production-grade AI systems. Expertise in Large Language Models and scalable machine learning solutions across NLP and computer vision, with a strong focus on real-time systems and end-to-end deployment.
+            An Artificial Intelligence Engineer (Generative AI) with {calculateExperience('2021-02-08')} years of experience building and deploying production-grade AI systems. Expertise in Large Language Models and scalable machine learning solutions across NLP and computer vision, with a strong focus on real-time systems and end-to-end deployment.
             </ProfileText>
             <ProfileDetail>
               <DetailTitle>FULLNAME: </DetailTitle>
@@ -114,7 +114,7 @@ const About: React.FC = () => {
             </ProfileDetail>
             <ProfileDetail>
               <DetailTitle>JOB: </DetailTitle>
-              <DetailContent>Data Scientist (Generative AI)</DetailContent>
+              <DetailContent>Artificial Intelligence Engineer (Generative AI)</DetailContent>
             </ProfileDetail>
             <ProfileDetail>
               <DetailTitle>EMAIL: </DetailTitle>

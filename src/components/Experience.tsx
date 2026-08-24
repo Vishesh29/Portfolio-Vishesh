@@ -66,7 +66,7 @@ const Experience: React.FC = () => {
     {
       icon: workIcon,
       date: 'Apr 2025 - Present',
-      title: 'Data Scientist',
+      title: 'Artificial Intelligence / Machine Learning Engineer',
       subtitle: 'FIS Global',
       desc:  ['Built GenAI automation framework to streamline SDLC and PDLC workflows using LLMs.',
               'Developed context-aware LLM pipelines using LangChain, OpenAI APIs, and RAG architecture.',
@@ -92,7 +92,7 @@ const Experience: React.FC = () => {
       date: 'Nov 2021 - Nov 2024',
       title: 'Senior Software Engineer',
       subtitle: 'Futops Technologies India Private Limited, Pune',
-      desc:  ['Developed a Smart Traffic System with <Yolov>4-8</Yolov> in PyTorch to enhance accuracy and reduce losses in real-time anomaly detection.',
+      desc:  ['Developed a Smart Traffic System with Yolov(4-10) in PyTorch to enhance accuracy and reduce losses in real-time anomaly detection.',
       'Implemented multi-person pose estimation via OpenCV DNN and MySQL for real-time human movement tracking.',
       'Developed HTTP live streaming using Nginx for smooth media delivery, achieving 10-12 seconds latency.',
       'Developed Automated server monitoring with OpenCV for object detection and pattern recognition, achieving 80% accuracy in LED status detection.',
